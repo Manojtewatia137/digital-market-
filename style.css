@@ -34,13 +34,24 @@ li {
     font-weight: bold;
 }
 
-.img1 {
-    background-image: url(./img/download.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    margin-top: 20px;
 
+
+.container12{
+    display: flex;
+    color: white;
+    background-color: blue;
+}
+
+.btn{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover{
+    background-color:white;
 }
 
 
@@ -82,7 +93,8 @@ a{
 
 /* footer */
 .footer {
-    background-color: rgb(233, 221, 221);
+    background-color: rgb(125, 125, 143);
+    color: white;
 
 
 }
